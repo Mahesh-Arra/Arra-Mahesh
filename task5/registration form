@@ -1,1 +1,55 @@
-
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>second form</title>
+    </head>
+    <body>
+        <form name="form2" action="server2url">
+<table align="center" cellpadding="10px">
+    <caption><b>REGISTRATION FORM</b></caption>
+    <tr>
+        <td><label>First Name</label></td>
+        <td><input type="text" border-radius="5px" name="name" id="1"></td>
+    </tr>
+    <tr>
+        <td><label>Last Name</label></td>
+        <td><input type="text" border-radius="5px" name="surname" id="2"></td>
+    </tr>
+    <tr>
+        <td><label>Middle Name</label></td>
+        <td><input type="text" border-radius="5px" name="nick name" id="3"></td>
+    </tr>
+    <tr>
+        <td><label>E-mail</label></td>
+        <td><input type="email" border-radius="5px" name="email" id="4"></td>
+    </tr>
+    <tr>
+        <td><label>Password</label></td>
+        <td><input type="text" border-radius="5px" name="password" id="5"></td>
+    </tr>
+    <tr>
+        <td><label>Date Of Birth</label></td>
+        <td><input type="date" border-radius="5px" name="date" id="6"></td>
+    </tr>
+    <tr>
+        <td><label>Gender</label></td>
+        <td><input type="radio" name="grnder">Male
+        <input type="radio" name="gender">Female
+    <input type="radio" name="gender">Others
+</td>
+    </tr>
+    <tr>
+        <td><label>Mobile Number</label></td>
+        <td><input type="number" border-radius="5px"></td>
+    </tr>
+    <tr>
+        <td><label>Address</label></td>
+        <td><textarea></textarea></td>
+        </tr>
+        <td><input type="submit" border-radius="5px"></td>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <td><input type="Reset" border-radius="5px"></td>
+</table>
+        </form>
+    </body>
+</html>

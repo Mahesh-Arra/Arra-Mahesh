@@ -1,1 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
 
+        </title>
+    </head>
+    <body style="background-color: midnightblue;">
+        <form>
+<table cellspacing="10px">
+    <tr>
+    <h1 style="background-color: orange;">Sign Up</h1>
+</tr>
+<tr>
+    <td><lable style="color: yellow;">First Name</lable></td>
+    <td><input type="text" placeholder="Enter First Name" id="1"></td>
+</tr>
+<tr>
+    <td><lable style="color: yellow;">Last Name</lable></td>
+    <td><input type="text" placeholder="Enter Last Name" id="2"></td>
+</tr>
+<tr>
+    <td><lable style="color: yellow;">Screen Name</lable></td>
+    <td><input type="text" placeholder="Enter Screen Name" id="3"></td>
+</tr>
+<tr>
+    <td><lable style="color: yellow;">Date Of Birth</lable></td>
+    <td><input type="date" id="4"></td>
+</tr>
+<tr>
+<td><lable style="color: yellow;">Gender</lable></td>
+                    <td style="color: yellow;"><input type="radio" name="gender">Male<input type="radio" name="gender" id="5">Female</td>
+                </tr>
+<tr>
+    <td><label style="color: yellow;">Country</label></td>  
+<td>
+        <select>
+          <option>India</option>  
+          <option>USA</option>
+          <option>South Africa</option> 
+          <option>Australia</option> 
+          <option>New Zealand</option>   
+        </select>
+    </td>
+    </tr>
+    <tr>
+        <td><lable style="color: yellow;">Email</lable></td>
+        <td><input type="mail" placeholder="Enter Email" id="6"></td>
+    </tr>
+    <tr>
+        <td><lable style="color: yellow;">Phone</lable></td>
+        <td><input type="number" placeholder="Enter your Number" id="7"></td>
+    </tr>
+    <tr>
+        <td><lable style="color: yellow;">Password</lable></td>
+        <td><input type="password" placeholder="Enter your Password" id="8"></td>
+    </tr>
+    <tr>
+        <td><lable style="color: yellow;">Confirm your Password</lable></td>
+        <td><input type="text" placeholder="Re Enter your Password" id="9"></td>
+    </tr>
+    <tr style="color: yellow;">
+        <td></td>
+        <td><input type="checkbox" id="10">I agree to the terms of use</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><input type="submit" vaue="submit" style="background-color:lawngreen; border-radius: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;<input type="reset" value="cancle" style="background-color: red;border-radius: 5px;"></td>
+    </tr>
+</table>
+        </form>
+    </body>
+</html>
